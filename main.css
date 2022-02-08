@@ -1,0 +1,50 @@
+#animate{
+    margin-top: -90px;
+    width: 120px;
+    border-radius: 10px;
+    position: absolute;
+    text-align: center;
+}
+
+.image{
+    margin-top: 100px;
+    margin-left: 500px;
+    width: 600px;
+    height: 250px;
+}
+
+.image1{
+    margin-left: 500px;
+    width: 150px;
+    height: 50px;
+}
+
+.titulo {
+    position: absolute;
+    font-family: Arial Black;
+    color: black;
+    top: 5px;
+    font-size: 15pt;
+}
+
+.button {
+    border: none;
+    color: white;
+    font-family: Arial Black;
+    padding: 15px 32px;
+    text-align: center;
+    background:rgb(179, 194, 154);
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 50px;
+  }
+  
+.rodape{
+    bottom: 0;
+    position: absolute;
+    width: 98%;
+    text-align: center;
+    font-family: Arial;
+ }
+
+
