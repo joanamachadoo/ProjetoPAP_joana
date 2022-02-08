@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/main.css">
+
+    <title>Animação em Javascript</title>
+</head>
+<body>
+    <h3 class="titulo">Exemplo de uma animação </h3>
+
+    <p><button class="button" onclick="myMove()">Clique aqui</button></p>
+
+        <img src="imagens/estrada.jpg" class="image">
+        
+        <div id="animate">
+              <img src="imagens/BMW.png" class="image1">
+        </div>
+    </div>
+
+    <script>
+        function myMove(){
+            let id = null;
+            const elem = document.getElementById("animate");
+            let pos = 0
+            clearInterval(id);
+            id = setInterval(frame, 5);
+
+            function frame() {
+                if (pos == 455) {
+                    clearInterval(id);
+                } else{
+                    pos++ ;
+                    elem.style.left = pos + "px";               
+                }
+            }
+        }
+    </script>
+
+<footer class="rodape">
+    <p> Trabalho realizado por: Joana Machado, Nº 12 </p>
+</footer>
+
+</body>
+</html>
